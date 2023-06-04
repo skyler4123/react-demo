@@ -1,5 +1,6 @@
 import './App.css';
 import { productApi } from './api/productApi';
+import MyApp from './components/MyApp';
 
 function App() {
   const product_index = productApi.index()
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <div>jkasjkdshkhdj</div>
+      <MyApp />
     </>
 
   );
